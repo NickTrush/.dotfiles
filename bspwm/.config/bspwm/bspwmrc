@@ -2,6 +2,7 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 setxkbmap us &
+setxkbmap -option grp:alt_space_toggle ru,us &
 picom &
 nitrogen --restore &
 $HOME/.config/polybar/launch.sh
