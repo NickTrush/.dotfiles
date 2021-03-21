@@ -5,7 +5,7 @@ xsetroot -cursor_name left_ptr
 setxkbmap -model pc104 -layout us,ru -variant qwerty -option grp:alt_space_toggle us,ru &
 picom &
 $HOME/.config/polybar/launch.sh
-sleep 3
+sleep 1
 $HOME/.dotfiles/setdpi.sh &
 $HOME/.screenlayout/layout.sh &
 nitrogen --restore &
