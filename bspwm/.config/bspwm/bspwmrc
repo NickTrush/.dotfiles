@@ -4,11 +4,11 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 xsetroot -cursor_name left_ptr
 setxkbmap -model pc104 -layout us,ru -variant qwerty -option grp:alt_space_toggle us,ru &
 picom &
-$HOME/.config/polybar/launch.sh
-sleep 3
-$HOME/.dotfiles/setdpi.sh &
-$HOME/.screenlayout/layout.sh &
+sleep 1
+$HOME/.screenlayout/layout.sh
+$HOME/.dotfiles/setdpi.sh
 nitrogen --restore &
+$HOME/.config/polybar/launch.sh
 
 bspc monitor -d 1 2 3 4 5 6 7 8 9 10
 bspc monitor HDMI-1 1 2 3 4 5 6 7 8 9 10
@@ -46,6 +46,7 @@ bspc config urgent_border_color 	      "#de352e"
 #polybar hidden when fullscreen for vlc, youtube, mpv ...
 #find out the name of your monitor with xrandr
 xdo below -t $(xdo id -n root) $(xdo id -a polybar-main_eDP1)
+xdo below -t $(xdo id -n root) $(xdo id -a polybar-eDP1)
 xdo below -t $(xdo id -n root) $(xdo id -a polybar-main_HDMI1)
 
 bspc rule -a Gimp desktop='^8' state=floating follow=on
