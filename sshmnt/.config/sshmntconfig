@@ -11,4 +11,4 @@ editor=nano:
 # path: the remote directory to use as the highest level of the mounted share (required, mount only)
 # mntopts: sshfs mount options exactly as they'd appear following the -o option (optional, mount only)
 #Example:
-location=node-304:name:login=mziai:ip=ziai.xyz:port=22:path=/storage/external/sshfs/mziai:mntopts=uid=99,gid=99:
+location=node-304:login=mziai:ip=ziai.xyz:port=22:path=/storage/external/sshfs/mziai:mntopts=uid=99,gid=99:
