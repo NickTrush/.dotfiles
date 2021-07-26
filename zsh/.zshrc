@@ -86,3 +86,6 @@ bindkey '^[[B' history-substring-search-down
 
 # QT5 Themes
 export QT_QPA_PLATFORMTHEME=qt5ct
+
+# export ROS_DOMAIN_ID=42
+# source /opt/ros2/foxy/setup.zsh

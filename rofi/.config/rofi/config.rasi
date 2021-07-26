@@ -6,14 +6,14 @@
  */
 
 * {
-    background-color:            #282c34;
-    border-color:                #282c34;
-    text-color:                  #bbc2cf;
-    font:                        "SauceCodePro Nerd Font Mono 11";
+    background-color:            #131313;
+    border-color:                #1f1f1f;
+    text-color:                  #d6dbe5;
+    font:                        "SourceCodePro Mono 11";
     prompt-font:                 "Ubuntu Bold 11";
     prompt-background:           #51afef;
     prompt-foreground:           #282c34;
-    prompt-padding:              4px;
+    prompt-padding:              1px;
     alternate-normal-background: #1c1f24;
     alternate-normal-foreground: @text-color;
     selected-normal-background:  #ae3f3e;

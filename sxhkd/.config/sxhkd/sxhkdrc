@@ -10,7 +10,8 @@ super + Return
 # super + @space
 #	dmenu_run
 super + @space
-	rofi -show drun
+	/home/mziai/.config/rofi/launchers/misc/launcher.sh
+	#rofi -show drun
 
 # make sxhkd reload its configuration files:
 super + Escape
