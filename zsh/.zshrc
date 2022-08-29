@@ -89,3 +89,5 @@ export QT_QPA_PLATFORMTHEME=qt5ct
 
 # export ROS_DOMAIN_ID=42
 # source /opt/ros2/foxy/setup.zsh
+
+export PATH="/home/dev/.cargo/bin:$PATH"
